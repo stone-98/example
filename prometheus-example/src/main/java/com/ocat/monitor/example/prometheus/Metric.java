@@ -1,4 +1,4 @@
-package com.ocat.monitor.demo.prometheus;
+package com.ocat.monitor.example.prometheus;
 
 /**
  * @Description:

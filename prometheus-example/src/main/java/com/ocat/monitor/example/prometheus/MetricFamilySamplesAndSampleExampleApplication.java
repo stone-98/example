@@ -1,4 +1,4 @@
-package com.ocat.monitor.demo.prometheus;
+package com.ocat.monitor.example.prometheus;
 
 import io.prometheus.client.Collector;
 import io.prometheus.client.Counter;

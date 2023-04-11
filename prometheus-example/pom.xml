@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>prometheus-demo</artifactId>
+    <artifactId>prometheus-example</artifactId>
     <packaging>jar</packaging>
 
-    <name>prometheus-demo</name>
+    <name>prometheus-example</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
