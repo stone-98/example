@@ -1,2 +1,4 @@
-package com.ocat.monitor.example.prometheus;public class PrometheusExampleApplication03 {
+package com.ocat.monitor.example.prometheus;
+
+public class PrometheusExampleApplication03 {
 }
