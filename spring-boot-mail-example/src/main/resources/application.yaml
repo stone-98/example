@@ -1,0 +1,29 @@
+spring:
+  mail:
+    # 邮件服务地址
+    host: smtp.gmail.com
+    # 端口 465
+    port: 465
+    # 编码格式
+    default-encoding: utf-8
+    # 用户名
+    username: shikui1998@gmail.com
+    # 协议
+    protocol: smtp
+    # 客户端授权码(gmail账号的密码)
+    password: xxxxxx
+    # 其它参数
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+        # 这里必须开启ssl
+        ssl:
+          enable: true
+        # 显示名称可任意设置
+        display:
+          sendmail: Souther
+          sendname: Spring Boot Test Email
