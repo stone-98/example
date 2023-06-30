@@ -1,7 +1,7 @@
 package com.ocat.example.leetcode.question67.question2490;
 
 /**
- * @author shikui@tiduyun.com
+ * @author stone-98
  * @date 2023/6/30
  */
 class Solution2490 {
