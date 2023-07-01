@@ -1,4 +1,4 @@
-package com.ocat.example.leetcode.question67.question2490;
+package com.ocat.example.leetcode.question2490;
 
 /**
  * @author stone-98

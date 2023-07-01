@@ -1,4 +1,4 @@
-package com.ocat.example.leetcode.question67.question3;
+package com.ocat.example.leetcode.question3;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,12 +1,10 @@
 package com.ocat.example.leetcode.question67;
 
-import java.util.Arrays;
-
 /**
  * @author shikui@tiduyun.com
  * @date 2023/5/12
  */
-public class Solution {
+public class Question67 {
 
     public static void main(String[] args) {
         String value = addBinary("10100111", "100");

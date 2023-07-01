@@ -1,9 +1,7 @@
-package com.ocat.example.leetcode.question67.question1;
+package com.ocat.example.leetcode.question1;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * @author stone-98

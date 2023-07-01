@@ -1,7 +1,5 @@
-package com.ocat.example.leetcode.question67.question2;
+package com.ocat.example.leetcode.question2;
 
-
-import java.util.List;
 
 public class Question2 {
     public static class ListNode {
