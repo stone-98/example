@@ -20,7 +20,9 @@ public class SendGmailTest {
 
     @Test
     public void send(){
-        mailService.sendMimeMessge("670569467@qq.com", "嘿嘿嘿嘿","hfuewfnincweincwencew");
+        for (int i = 0; i < 100; i++) {
+            mailService.sendMimeMessage("1677613135@qq.com", "嘿嘿嘿嘿","笑死我了"+ i);
+        }
         System.out.println("发送完成");
     }
 }

@@ -31,7 +31,7 @@ public class MailServiceImpl implements MailService {
     private String sender;
 
     @Override
-    public void sendSimpleMailMessge(MailSendDto dto) {
+    public void sendSimpleMailMessage(MailSendDto dto) {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setFrom(sender);
         message.setTo(dto.getTo());
@@ -47,7 +47,7 @@ public class MailServiceImpl implements MailService {
 
 
     @Override
-    public void sendSimpleMailMessge(String to, String subject, String content) {
+    public void sendSimpleMailMessage(String to, String subject, String content) {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setFrom(sender);
         message.setTo(to);
@@ -63,7 +63,7 @@ public class MailServiceImpl implements MailService {
 
 
     @Override
-    public void sendMimeMessge(String to, String subject, String content) {
+    public void sendMimeMessage(String to, String subject, String content) {
         MimeMessage message = mailSender.createMimeMessage();
         try {
             //true表示需要创建一个multipart message
@@ -80,7 +80,7 @@ public class MailServiceImpl implements MailService {
     }
 
     @Override
-    public void sendMimeMessge(String to, String subject, String content, String filePath) {
+    public void sendMimeMessage(String to, String subject, String content, String filePath) {
         MimeMessage message = mailSender.createMimeMessage();
         try {
             //true表示需要创建一个multipart message
@@ -100,7 +100,7 @@ public class MailServiceImpl implements MailService {
     }
 
     @Override
-    public void sendMimeMessge(String to, String subject, String content, Map<String, String> rscIdMap) {
+    public void sendMimeMessage(String to, String subject, String content, Map<String, String> rscIdMap) {
         MimeMessage message = mailSender.createMimeMessage();
         try {
             //true表示需要创建一个multipart message
