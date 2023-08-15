@@ -13,7 +13,7 @@ import java.util.List;
  * @author stone-98
  * @date 2023/8/15
  */
-public class 全排列_46 {
+public class 全排列_46_回溯算法_深度遍历优先 {
     
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
